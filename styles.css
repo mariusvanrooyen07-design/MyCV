@@ -1,0 +1,139 @@
+/* Styles for My CV website */
+
+/* Styles for the body */
+body {
+  background-color: #E8F8F0;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  color: #965c99;
+}
+
+/* Styles for my photo logo */
+.my-photo {
+  width: 50%;
+  max-width: 150px;
+  height: auto;
+  align-self: center;
+  padding: 0.25rem;
+}
+
+/* Styles for my name */
+#my-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #965c99;
+  text-align: center;
+  margin: 1rem;
+  align-content: center;
+}
+
+/* Styles for the nav-links */
+.nav-link {
+  color: white;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+/* Styles for the Hero section */
+#about-me {
+  color: #965c99;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Styles for the Welcome section heading 2 */
+#about-me h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #965c99;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Styles for the shop's heading */
+#contact-details {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #283841;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Styles for image hover effect*/
+.card-img-top:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+/* Styles for the item prices */
+#item-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #283841;
+  margin-top: 0.5rem;
+}
+
+/* Styles for the shop rows */
+.shop-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+/* Styles for the final row */
+#final-row {
+  max-width: 42vh;
+}
+
+/* Styles for the footer of the website */
+#footer-area {
+  background-color: #283841;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Styles for the company logo in the footer */
+#company-logo-footer {
+  width: 50%;
+  max-width: 100px;
+  height: auto;
+  align-self: center;
+  padding: 0.25rem;
+}
+
+/* Styles for horisontal form */
+.col-md-3 {
+  float: left;
+  padding-right: 3px;
+}
+
+.col-md-2 {
+  float: left;
+  padding-right: 3px;
+}
+
+.col-md-1 {
+  float: left;
+}
+
+/* Styles for contact info conatiner */
+#contact-info-container {
+  margin-top: 2vh;
+}
+
+/* Styles for form header */
+.row h3 {
+  text-align: left;
+}
+
+/* Styles for horizontal form */
+#text-align-left {
+  text-align: left;
+  align-items: baseline;
+  float: left;
+}
