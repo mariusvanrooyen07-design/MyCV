@@ -237,6 +237,19 @@ h1, h2, h3, h4, h5, h6,
 
 /* ---------------------------------- Skills ---------------------------------- */
 
+.skills-group-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+
+.skills-group-title:not(:first-of-type) {
+  margin-top: 2.25rem;
+}
+
 .skills-wrap {
   display: flex;
   flex-wrap: wrap;
