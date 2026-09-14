@@ -330,8 +330,46 @@ h1, h2, h3, h4, h5, h6,
 
 .timeline-desc {
   color: var(--text-muted);
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
   line-height: 1.6;
+}
+
+.badge-in-progress {
+  background-color: var(--accent);
+  color: #04302b;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.25em 0.6em;
+  border-radius: 1rem;
+  vertical-align: middle;
+  margin-left: 0.4rem;
+}
+
+.module-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.35rem 1rem;
+}
+
+.module-list li {
+  color: var(--text-muted);
+  line-height: 1.5;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.module-list li::before {
+  content: "\2713";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 700;
+  top: 0;
 }
 
 /* ---------------------------------- Footer ---------------------------------- */
